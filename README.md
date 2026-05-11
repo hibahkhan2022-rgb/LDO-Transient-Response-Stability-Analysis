@@ -64,6 +64,3 @@ The final iteration utilized an optimized capacitance profile to achieve the ide
 1.  **ESR Sensitivity:** Confirmed that LDO stability is not just about the *amount* of capacitance, but the **Equivalent Series Resistance (ESR)** which acts as a critical zero in the control loop.
 2.  **Validation Methodology:** Developed a repeatable test bench using a function generator to pulse the load, allowing for real-time visualization of the transient response on the DSO.
 3.  **Power Integrity (PI):** Successfully mitigated power rail fluctuations that could lead to signal integrity issues or bit errors in embedded systems.
-
-## How to View
-The raw waveforms and cursor measurements can be found in the `/images` directory of this repository. Measurements were taken using manual cursors on the Keysight DSOX1204G to ensure maximum accuracy for $\Delta Y$ (voltage) and $\Delta X$ (timing) data.
